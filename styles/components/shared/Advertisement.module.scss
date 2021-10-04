@@ -1,0 +1,43 @@
+.container {
+  padding: 0 40px 40px 40px;
+  display: flex;
+  justify-content: center;
+  margin: 0 -10px;
+  border-bottom: 1px solid #D0D0D0;
+}
+
+.title {
+  font-size: 16px;
+  color: #888888;
+  margin: 15px 0 5px;
+}
+
+.large {
+    display: block;
+  }
+
+  .sm {
+    display: none;
+  }
+
+.container img {
+  width: 100%;
+}
+
+@media(max-width: 899px) {
+  .container {
+    padding: 0!important;
+  }
+
+  .real {
+    max-width: 375px;
+  }
+
+  .large {
+    display: none;
+  }
+
+  .sm {
+    display: block;
+  }
+}
